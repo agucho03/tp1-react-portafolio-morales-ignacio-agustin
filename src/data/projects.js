@@ -5,10 +5,9 @@ export const proyectos = [
     titulo: 'Sistema de Prioridad para Emergencias',
     descripcion:
       'Proyecto final de la carrera: busca ayudar a bomberos y ambulancias a llegar más rápido, colaborando en descongestionar el tráfico en su recorrido y dándoles minutos clave de ventaja frente a una incidencia.',
-    tecnologias: ['React', 'Geolocalización', 'En desarrollo'],
+    tecnologias: ['React', 'Geolocalización', 'Mapas'],
     link: '#',
-    // Todavia en desarrollo: sin captura por ahora
-    imagen: null,
+    imagenes: ['/images/emergencia-1.jpg', '/images/emergencia-2.jpg'],
   },
   {
     id: 2,
@@ -17,8 +16,7 @@ export const proyectos = [
       'E-commerce con catálogo de productos y precios: el cliente arma su carrito y al finalizar la compra se genera automáticamente un link de pago por WhatsApp para coordinar el pago y la entrega.',
     tecnologias: ['React', 'JavaScript', 'WhatsApp API'],
     link: '#',
-    // Poné aca la ruta de la captura, ej: '/images/lavadero.png'
-    imagen: null,
+    imagenes: ['/images/lavadero-1.jpg', '/images/lavadero-2.jpg'],
   },
   {
     id: 3,

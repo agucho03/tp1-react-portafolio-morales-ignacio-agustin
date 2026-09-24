@@ -1,12 +1,16 @@
 // Componente reutilizable: recibe un único proyecto por props
 function ProjectCard({ proyecto }) {
-  const { titulo, descripcion, tecnologias, link, imagen } = proyecto
+  const { titulo, descripcion, tecnologias, link, imagenes } = proyecto
 
   return (
     <article className="project-card">
-      {/* Renderizado condicional: la imagen solo se muestra si el proyecto la tiene */}
-      {imagen && (
-        <img className="project-card__imagen" src={imagen} alt={`Captura de ${titulo}`} />
+      {/* Renderizado condicional: la galería solo se muestra si el proyecto tiene capturas */}
+      {imagenes && imagenes.length > 0 && (
+        <div className="project-card__galeria">
+          {imagenes.map((imagen) => (
+            <img key={imagen} src={imagen} alt={`Captura de ${titulo}`} />
+          ))}
+        </div>
       )}
       <div className="project-card__body">
         <h3>{titulo}</h3>

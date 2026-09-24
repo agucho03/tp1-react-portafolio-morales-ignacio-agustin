@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header
-        nombre="Ignacio Agustín Morales"
+        nombre="Ignacio Agustin Morales"
         profesion="Estudiante de Programación (UTN)"
       />
       <main>
@@ -21,7 +21,7 @@ function App() {
         <Skills habilidades={habilidades} />
         <Projects proyectos={proyectos} />
       </main>
-      <Footer nombre="Ignacio Agustín Morales" />
+      <Footer nombre="Ignacio Agustin Morales" />
     </>
   )
 }
