@@ -1,10 +1,8 @@
-/* Reset basico */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 :root {
   --color-fondo: #1a1a1a;
   --color-fondo-alt: #262626;
@@ -17,31 +15,25 @@
   --radio: 6px;
   --espaciado-seccion: 3rem;
 }
-
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
-
 h1, h2, h3 {
   line-height: 1.2;
 }
-
 a {
   color: var(--color-acento);
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 ul {
   list-style: none;
 }
-
 img {
   max-width: 100%;
   display: block;
