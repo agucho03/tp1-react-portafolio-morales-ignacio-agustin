@@ -5,12 +5,11 @@ function Footer({ nombre }) {
     <footer className="footer">
       <p className="footer__nombre">{nombre}</p>
       <div className="footer__contacto">
-        {/* TODO: reemplazá estos enlaces por tus datos reales */}
-        <a href="mailto:tu-email@ejemplo.com">Email</a>
+        <a href="mailto:agustinmorales1504@gmail.com">Email</a>
         <a href="https://github.com/agucho03" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/ignacio-agustin-morales" target="_blank" rel="noreferrer">
           LinkedIn
         </a>
       </div>

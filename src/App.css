@@ -9,10 +9,12 @@ main {
   border: none;
   border-radius: var(--radio);
   padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  font-weight: 600;
+  font-family: var(--font-texto);
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   cursor: pointer;
-  transition: transform 0.15s ease, opacity 0.15s ease;
+  transition: transform 0.15s ease, opacity 0.15s ease, background-color 0.15s ease;
 }
 
 .btn:hover {
@@ -21,7 +23,7 @@ main {
 
 .btn--primario {
   background-color: var(--color-acento);
-  color: #0f172a;
+  color: var(--color-acento-texto);
 }
 
 .btn--secundario {
@@ -51,23 +53,34 @@ main {
 }
 
 .header__logo {
-  font-weight: 700;
+  font-family: var(--font-titulo);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .header__nav {
   display: flex;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 
 .header__nav a {
-  color: var(--color-texto);
+  color: var(--color-texto-suave);
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header__nav a:hover {
+  color: var(--color-acento);
+  text-decoration: none;
 }
 
 .header__profesion {
   max-width: 1000px;
   margin: 0.35rem auto 0;
   color: var(--color-texto-suave);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 /* ---------- Hero ---------- */
@@ -77,7 +90,7 @@ main {
 }
 
 .hero h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
   margin-bottom: 1rem;
 }
 
@@ -89,7 +102,7 @@ main {
 
 /* ---------- Secciones genéricas ---------- */
 section h2 {
-  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -131,11 +144,22 @@ section h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: border-color 0.15s ease;
+}
+
+.skills__item:hover {
+  border-color: var(--color-acento);
+}
+
+.skills__nombre {
+  font-weight: 500;
 }
 
 .skills__nivel {
   color: var(--color-texto-suave);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* ---------- Projects ---------- */
@@ -153,6 +177,16 @@ section h2 {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.project-card:hover {
+  border-color: var(--color-acento);
+  transform: translateY(-3px);
+}
+
+.project-card h3 {
+  font-size: 1.3rem;
 }
 
 .project-card p {
@@ -171,7 +205,8 @@ section h2 {
   border: 1px solid var(--color-borde);
   border-radius: 999px;
   padding: 0.2rem 0.7rem;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
   color: var(--color-texto-suave);
 }
 
@@ -184,8 +219,9 @@ section h2 {
 }
 
 .footer__nombre {
+  font-family: var(--font-titulo);
+  font-size: 1.1rem;
   color: var(--color-texto);
-  font-weight: 600;
   margin-bottom: 0.75rem;
 }
 
@@ -197,7 +233,8 @@ section h2 {
 }
 
 .footer__copy {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
 }
 
 /* ---------- Responsive ---------- */

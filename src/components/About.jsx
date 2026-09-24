@@ -10,7 +10,7 @@ function About() {
       <p>
         Soy estudiante de la Tecnicatura Universitaria en Programación en la
         UTN. Me interesa el desarrollo web y estoy dando mis primeros pasos
-        con React, aplicando en este portfolio los conceptos vistos durante
+        con React, aplicando en este portafolio los conceptos vistos durante
         la cursada.
       </p>
 
@@ -18,8 +18,7 @@ function About() {
       {mostrarMas && (
         <p className="about__extra">
           Mi objetivo es seguir formándome como desarrollador frontend,
-          sumando de a poco herramientas del ecosistema de React y buenas
-          prácticas de organización de código en proyectos reales.
+          sumando de a poco herramientas del ecosistema de React y ademas practicar diariamente.
         </p>
       )}
 

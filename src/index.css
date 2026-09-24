@@ -6,14 +6,21 @@
 }
 
 :root {
-  --color-fondo: #0f172a;
-  --color-fondo-alt: #1e293b;
-  --color-texto: #e2e8f0;
-  --color-texto-suave: #94a3b8;
-  --color-acento: #38bdf8;
-  --color-borde: #334155;
+  /* Paleta gris oscuro */
+  --color-fondo: #121212;
+  --color-fondo-alt: #1c1c1c;
+  --color-texto: #ececec;
+  --color-texto-suave: #a3a3a3;
+  --color-acento: #c9a86a;
+  --color-acento-texto: #1c1c1c;
+  --color-borde: #2e2e2e;
+
   --radio: 12px;
   --espaciado-seccion: clamp(2.5rem, 6vw, 5rem);
+
+  /* Tipografías: serif delicada para títulos, sans liviana para el resto */
+  --font-titulo: 'Cormorant Garamond', 'Georgia', serif;
+  --font-texto: 'Outfit', system-ui, -apple-system, sans-serif;
 }
 
 html {
@@ -23,12 +30,17 @@ html {
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  line-height: 1.6;
+  font-family: var(--font-texto);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 1.7;
 }
 
 h1, h2, h3 {
-  line-height: 1.2;
+  font-family: var(--font-titulo);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
 }
 
 a {
