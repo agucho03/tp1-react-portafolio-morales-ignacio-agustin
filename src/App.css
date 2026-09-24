@@ -173,11 +173,25 @@ section h2 {
   background-color: var(--color-fondo-alt);
   border: 1px solid var(--color-borde);
   border-radius: var(--radio);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.project-card__imagen {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.project-card__body {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  transition: border-color 0.15s ease, transform 0.15s ease;
+  flex-grow: 1;
 }
 
 .project-card:hover {
