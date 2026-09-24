@@ -2,18 +2,18 @@
 export const proyectos = [
   {
     id: 1,
-    titulo: 'Gestor de Tareas',
+    titulo: 'Sistema de Prioridad para Emergencias',
     descripcion:
-      'Aplicación para organizar tareas diarias con prioridades, categorías y estado de completado.',
-    tecnologias: ['React', 'CSS3', 'LocalStorage'],
+      'Proyecto final de la carrera: busca ayudar a bomberos y ambulancias a llegar más rápido, colaborando en descongestionar el tráfico en su recorrido y dándoles minutos clave de ventaja frente a una incidencia.',
+    tecnologias: ['React', 'Geolocalización', 'En desarrollo'],
     link: '#',
   },
   {
     id: 2,
-    titulo: 'Clima App',
+    titulo: 'Tienda Online de Insumos para Lavaderos',
     descripcion:
-      'Consulta el clima actual de cualquier ciudad consumiendo una API pública de terceros.',
-    tecnologias: ['JavaScript', 'API REST', 'CSS3'],
+      'E-commerce con catálogo de productos y precios: el cliente arma su carrito y al finalizar la compra se genera automáticamente un link de pago por WhatsApp para coordinar el pago y la entrega.',
+    tecnologias: ['React', 'JavaScript', 'WhatsApp API'],
     link: '#',
   },
   {
