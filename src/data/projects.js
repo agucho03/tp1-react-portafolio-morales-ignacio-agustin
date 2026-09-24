@@ -18,12 +18,4 @@ export const proyectos = [
     link: '#',
     imagenes: ['/images/lavadero-1.jpg', '/images/lavadero-2.jpg'],
   },
-  {
-    id: 3,
-    titulo: 'Este Portfolio',
-    descripcion:
-      'El sitio que estás viendo ahora mismo, desarrollado como Trabajo Práctico Nº1 de Programación.',
-    tecnologias: ['React', 'Vite', 'CSS3'],
-    link: '#',
-  },
 ]
