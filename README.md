@@ -60,7 +60,7 @@ Luego abrir en el navegador la URL que indica la terminal (por defecto
 
 ## Repositorio
 
-https://github.com/agucho03/tp1-react-portfolio-morales-ignacio
+https://github.com/agucho03/tp1-react-portafolio-morales-ignacio-agustin
 
 ## Estado
 
