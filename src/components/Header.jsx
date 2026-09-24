@@ -1,4 +1,4 @@
-// Header recibe "nombre" y "profesion" por props (ejemplo de la consigna)
+// Header recibe nombre y profesion por props
 function Header({ nombre, profesion }) {
   return (
     <header className="header">

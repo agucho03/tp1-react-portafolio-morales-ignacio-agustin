@@ -1,4 +1,4 @@
-// Array de datos: se usa con map() en el componente Skills
+// array de habilidades, lo uso en Skills.jsx
 export const habilidades = [
   { nombre: 'C#', nivel: 'Avanzado' },
   { nombre: 'JavaScript', nivel: 'Intermedio' },

@@ -1,4 +1,4 @@
-// Skills recibe el array "habilidades" por props y lo recorre con map()
+// recibe las habilidades por props y las recorro con el map
 function Skills({ habilidades }) {
   return (
     <section className="skills" id="skills">

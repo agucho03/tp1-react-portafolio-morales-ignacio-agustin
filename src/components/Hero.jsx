@@ -1,5 +1,5 @@
 function Hero() {
-  // Evento onClick: hace scroll suave hasta la sección de proyectos
+  // hace scroll hasta la seccion de proyectos
   const irAProyectos = () => {
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
   }

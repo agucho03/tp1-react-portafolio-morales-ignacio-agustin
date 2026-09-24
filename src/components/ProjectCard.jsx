@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
-// Componente reutilizable: recibe un único proyecto por props
+// componente para no repetir el codigo de cada proyecto
 function ProjectCard({ proyecto }) {
   const { titulo, descripcion, tecnologias, link, imagenes } = proyecto
 
-  // useState controla si el modal con el detalle del proyecto está abierto
+  // controla si esta abierto el modal con mas info
   const [mostrarModal, setMostrarModal] = useState(false)
 
   return (
@@ -25,14 +25,14 @@ function ProjectCard({ proyecto }) {
               <li key={tech}>{tech}</li>
             ))}
           </ul>
-          {/* Evento onClick: en vez de navegar, abre el modal con el detalle */}
+          {/* al hacer click se abre el modal en vez de navegar */}
           <button className="project-card__link" onClick={() => setMostrarModal(true)}>
             Ver más →
           </button>
         </div>
       </article>
 
-      {/* Renderizado condicional: el modal solo existe en el DOM si mostrarModal es true */}
+      {/* esto solo se muestra si mostrarModal es true */}
       {mostrarModal && (
         <div className="project-modal__overlay" onClick={() => setMostrarModal(false)}>
           <div className="project-modal" onClick={(e) => e.stopPropagation()}>

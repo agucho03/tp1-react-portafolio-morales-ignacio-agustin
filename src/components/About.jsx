@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 function About() {
-  // useState maneja si se muestra o no el texto extendido
+  // maneja si se ve o no el texto extra
   const [mostrarMas, setMostrarMas] = useState(false)
 
   return (
@@ -14,7 +14,7 @@ function About() {
         la cursada.
       </p>
 
-      {/* Renderizado condicional: este párrafo solo aparece si mostrarMas es true */}
+      {/* esto se muestra solo si mostrarMas es true */}
       {mostrarMas && (
         <p className="about__extra">
           Mi objetivo es seguir formándome como desarrollador frontend,
