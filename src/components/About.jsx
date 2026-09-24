@@ -19,6 +19,9 @@ function About() {
         <p className="about__extra">
           Mi objetivo es seguir formándome como desarrollador frontend,
           sumando de a poco herramientas del ecosistema de React y ademas practicar diariamente.
+          Si tengo que elegir, me considero un poco más especializado en C# que en
+          JavaScript: es el lenguaje con el que más vengo trabajando en el proyecto
+          final de la carrera.
         </p>
       )}
 

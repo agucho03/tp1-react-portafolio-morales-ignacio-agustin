@@ -5,7 +5,7 @@ export const proyectos = [
     titulo: 'Sistema de Prioridad para Emergencias',
     descripcion:
       'Proyecto final de la carrera: busca ayudar a bomberos y ambulancias a llegar más rápido, colaborando en descongestionar el tráfico en su recorrido y dándoles minutos clave de ventaja frente a una incidencia.',
-    tecnologias: ['React', 'Geolocalización', 'Mapas'],
+    tecnologias: ['C#', 'Mapas', 'Geolocalización'],
     link: '#',
     imagenes: ['/images/emergencia-1.jpg', '/images/emergencia-2.jpg'],
   },
