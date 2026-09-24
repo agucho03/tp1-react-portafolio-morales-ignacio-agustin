@@ -1,16 +1,15 @@
-# TP1 - Mi Portfolio en React
+# TP1 - Portafolio en React
 
-**Alumno:** Ignacio Agustín Morales
+**Alumno:** Ignacio Agustin Morales
 **Comisión:** 5
 **Materia:** Programación — UTN Facultad Regional Tucumán
 
 ## Descripción
 
-Portfolio personal de una sola página desarrollado con React y Vite como
-Trabajo Práctico Nº1. Presenta información personal, habilidades y
+Portafolio personal de una sola página desarrollado con React y Vite como
+primer trabajo práctico. Presenta diferentes secciones como: información personal, habilidades y
 proyectos, dividido en componentes reutilizables que se comunican entre sí
-mediante props, con manejo de estado (`useState`), renderizado dinámico con
-`map()` y renderizado condicional.
+mediante props, con manejo de estado, renderizado dinámico con y renderizado condicional.
 
 ## Tecnologías utilizadas
 
@@ -44,19 +43,13 @@ src/
 
 Clonar el repositorio y, parado en la carpeta del proyecto, instalar las
 dependencias con:
-
-```bash
 npm install
-```
+
 
 ## Ejecutar el proyecto localmente
-
-```bash
 npm run dev
-```
 
-Luego abrir en el navegador la URL que indica la terminal (por defecto
-`http://localhost:5173`).
+Luego en el navegador pegar la URL que indica la terminal 
 
 ## Repositorio
 
@@ -64,4 +57,4 @@ https://github.com/agucho03/tp1-react-portafolio-morales-ignacio-agustin
 
 ## Estado
 
-En desarrollo — trabajo práctico para la cursada 2026.
+En desarrollo.
