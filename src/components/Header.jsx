@@ -9,7 +9,7 @@ function Header({ perfil }) {
           <a href="#projects">Proyectos</a>
         </nav>
       </div>
-      <p className="header__profesion">{perfil.profesion}</p>
+      <p className="header__profesion">{perfil.carrera}</p>
     </header>
   )
 }

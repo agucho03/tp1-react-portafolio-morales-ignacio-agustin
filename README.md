@@ -9,7 +9,7 @@
 Portafolio personal de una sola página desarrollado con React y Vite como
 Trabajo Práctico Nº1. Presentando información personal, habilidades y
 proyectos, dividido en componentes reutilizables que se comunican entre sí
-mediante props, con manejo de estado, renderizado dinámico con y renderizado condicional.
+mediante props, con manejo de estado (useState), renderizado dinámico con map() y renderizado condicional.
 
 ## Tecnologías utilizadas
 

@@ -34,7 +34,7 @@ function ProjectCard({ proyecto }) {
               onClick={() => setMostrarModal(false)}
               aria-label="Cerrar"
             >
-            
+              ×
             </button>
 
             {imagenes && imagenes.length > 0 && (
