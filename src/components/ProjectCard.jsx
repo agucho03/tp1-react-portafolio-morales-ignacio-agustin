@@ -1,10 +1,6 @@
 import { useState } from 'react'
-
-// componente para no repetir el codigo de cada proyecto
 function ProjectCard({ proyecto }) {
   const { titulo, descripcion, tecnologias, link, imagenes } = proyecto
-
-  // controla si esta abierto el modal con mas info
   const [mostrarModal, setMostrarModal] = useState(false)
 
   return (
@@ -25,14 +21,11 @@ function ProjectCard({ proyecto }) {
               <li key={tech}>{tech}</li>
             ))}
           </ul>
-          {/* al hacer click se abre el modal en vez de navegar */}
           <button className="project-card__link" onClick={() => setMostrarModal(true)}>
             Ver más →
           </button>
         </div>
       </article>
-
-      {/* esto solo se muestra si mostrarModal es true */}
       {mostrarModal && (
         <div className="project-modal__overlay" onClick={() => setMostrarModal(false)}>
           <div className="project-modal" onClick={(e) => e.stopPropagation()}>
@@ -41,7 +34,7 @@ function ProjectCard({ proyecto }) {
               onClick={() => setMostrarModal(false)}
               aria-label="Cerrar"
             >
-              ×
+            
             </button>
 
             {imagenes && imagenes.length > 0 && (
@@ -67,7 +60,7 @@ function ProjectCard({ proyecto }) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Visitar proyecto
+                  Mirar proyecto
                 </a>
               )}
             </div>

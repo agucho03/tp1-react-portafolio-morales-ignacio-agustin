@@ -1,4 +1,3 @@
-// array de proyectos, lo uso en Projects.jsx
 export const proyectos = [
   {
     id: 1,

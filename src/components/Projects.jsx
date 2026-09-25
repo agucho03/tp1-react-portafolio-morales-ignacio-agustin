@@ -1,6 +1,4 @@
 import ProjectCard from './ProjectCard'
-
-// recibe los proyectos por props y por cada uno pinto un ProjectCard
 function Projects({ proyectos }) {
   return (
     <section className="projects" id="projects">

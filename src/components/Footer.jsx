@@ -9,11 +9,8 @@ function Footer({ nombre }) {
         <a href="https://github.com/agucho03" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/ignacio-agustin-morales" target="_blank" rel="noreferrer">
-          LinkedIn
-        </a>
+        <a href="tel:+543812220501">381 222-0501</a>
       </div>
-      <p className="footer__copy">© {anioActual} — Hecho con React + Vite</p>
     </footer>
   )
 }

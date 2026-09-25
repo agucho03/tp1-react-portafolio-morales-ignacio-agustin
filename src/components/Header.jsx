@@ -1,4 +1,3 @@
-// Header recibe el objeto perfil por props (nombre y profesion van adentro)
 function Header({ perfil }) {
   return (
     <header className="header">

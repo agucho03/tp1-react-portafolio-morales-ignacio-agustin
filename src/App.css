@@ -3,8 +3,6 @@ main {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
-
-/* ---------- Botones ---------- */
 .btn {
   border: none;
   border-radius: var(--radio);

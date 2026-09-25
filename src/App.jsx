@@ -10,15 +10,13 @@ import { proyectos } from './data/projects'
 import './App.css'
 
 function App() {
-  // guardo mis datos de perfil como un objeto en un estado
   const [perfil, setPerfil] = useState({
     nombre: 'Ignacio Agustin Morales',
-    profesion: 'Estudiante de Programación (UTN)',
+    carrera: 'Estudiante de Programación (UTN)',
   })
 
   return (
     <>
-      {/* le paso el objeto perfil entero por props, en vez de nombre y profesion sueltos */}
       <Header perfil={perfil} />
       <main>
         <Hero />

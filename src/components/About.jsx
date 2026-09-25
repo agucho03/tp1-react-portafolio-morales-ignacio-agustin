@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 function About() {
-  // maneja si se ve o no el texto extra
   const [mostrarMas, setMostrarMas] = useState(false)
 
   return (
@@ -9,17 +8,15 @@ function About() {
       <h2>Sobre mí</h2>
       <p>
         Soy estudiante de la Tecnicatura Universitaria en Programación en la
-        UTN. Me interesa el desarrollo web y estoy dando mis primeros pasos
-        con React, aplicando en este portafolio los conceptos vistos durante
-        la cursada.
+        UTN. Interesado en el desarrollo web y estoy dando mis primeros pasos
+        con React, aplicando los conceptos vistos durante lo cursado.
       </p>
 
-      {/* esto se muestra solo si mostrarMas es true */}
       {mostrarMas && (
         <p className="about__extra">
-          Mi objetivo es seguir formándome como desarrollador frontend,
-          sumando de a poco herramientas del ecosistema de React y ademas practicar diariamente.
-          Si tengo que elegir, me considero un poco más especializado en C# que en
+          Mi objetivo es seguir formándome como programador,
+          sumando de a poco herramientas profesionales y ademas poder practicar diariamente.
+          Me considero un poco más especializado en C# que en
           JavaScript: es el lenguaje con el que más vengo trabajando en el proyecto
           final de la carrera.
         </p>
