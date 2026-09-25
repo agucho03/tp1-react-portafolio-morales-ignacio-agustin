@@ -9,8 +9,7 @@
 Portafolio personal de una sola página desarrollado con React y Vite como
 Trabajo Práctico Nº1. Presentando información personal, habilidades y
 proyectos, dividido en componentes reutilizables que se comunican entre sí
-mediante props, con manejo de estado (`useState`), renderizado dinámico con
-`map()` y renderizado condicional.
+mediante props, con manejo de estado, renderizado dinámico con y renderizado condicional.
 
 ## Tecnologías utilizadas
 
@@ -44,16 +43,11 @@ src/
 
 Clonar el repositorio y, parado en la carpeta del proyecto, instalar las
 dependencias con:
-
-```bash
 npm install
-```
+
 
 ## Ejecutar el proyecto localmente
-
-```bash
 npm run dev
-```
 
 Luego abrir en el navegador la URL que indica la terminal
 
